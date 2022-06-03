@@ -1,4 +1,4 @@
-* {
+/** {
   box-sizing: border-box;
 }
 
@@ -71,4 +71,62 @@ main {
   color: #61DAFB;
 }
 
+*/
+body {
+  margin: 0;
+  font-family: Inter, sans-serif !important;
+  height: 100vh !important;
+  background-color: #282D35 !important;
+}
 
+
+.nav--icon{
+  width: 50px;
+}
+
+.nav--logo_text{
+  color: #61DAFB;
+}
+
+.nav {
+  background-color: #21222A;
+}
+
+.nav--title{
+  color: #DEEBF8;
+  font-size: 15px;
+}
+
+.main--title {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+  color: white;
+}
+
+.main--facts {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.main--facts > li {
+  line-height: 19px;
+  padding-block: 10px;
+  color: white;
+}
+
+.main--facts > li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
+}
+
+main {
+  padding: 57px 27px;
+  
+  color: white;
+  background-image: url(./images/react-icon-small.jpg);
+  background-repeat: no-repeat;
+  background-size: 320px;
+  background-position: right 75%;
+
+}
